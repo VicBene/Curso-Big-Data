@@ -16,3 +16,6 @@
 - M6 - 05 - SparkSession Teoría
 - M6 - 06 - Primer RDD Teoría
 - M6 - 07 - Transformaciones y Acciones sobre RDDs
+
+**DIA 5**
+- 
