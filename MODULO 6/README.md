@@ -18,4 +18,6 @@
 - M6 - 07 - Transformaciones y Acciones sobre RDDs
 
 **DIA 5**
-- 
+- M6 - 07 - Transformaciones y Acciones sobre RDDs
+
+
