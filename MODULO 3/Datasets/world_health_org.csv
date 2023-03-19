@@ -1,0 +1,197 @@
+Country,CountryID,ContinentID,Adolescent_fertility_rate,Adult_literacy_rate,Gross_income_per_capita,Net_primary_school_enrolment_ratio_female,Net_primary_school_enrolment_ratio_male,Population_in_thousands,Population_annual_growth_rate,Population_in_urban_areas,Population_living_below_poverty_line,Continent
+Uganda,189,3,159,68.1,880,,,29899,3.2,13,,Africa
+Bosnia and Herzegovi,23,2,25,96.7,6780,,,3926,0.3,46,,Europe
+Moco,119,2,,,,,,33,0.3,100,,Europe
+Montenegro,121,2,16,,8930,,,601,-1.1,61,,Europe
+San Marino,156,2,,,,,,31,1.4,93,,Europe
+Serbia,160,2,24,,9320,,,9851,-0.1,52,,Europe
+Turkmenistan,187,2,29,98.8,3990,,,4899,1.4,47,,Europe
+French Polynesia,63,6,,,,,,,,,,Oceania
+Micronesia (Federated States of),117,6,44,,6070,,,111,0.5,22,,Oceania
+uru,126,6,,,,,,10,0.2,100,,Oceania
+New Caledonia,130,6,,,,,,,,,,Oceania
+Papua New Guinea,141,6,77,57.3,1630,,,6202,2.2,13,,Oceania
+Taiwan,177,6,,,,,,,,,,Oceania
+Tuvalu,188,6,,,,,,10,0.4,46,,Oceania
+Afghanistan,1,1,151,28,,,,26088,4,23,,Middle East
+West Bank and Gaza,199,1,,,,,,,,,,Middle East
+Antigua and Barbuda,6,4,,,15130,,,84,1.3,37,,North America
+Bermuda,20,4,,,,,,,,,,North America
+Netherlands Antilles,129,5,,,,,,,,,,South America
+Puerto Rico,147,5,,,,,,,,,,South America
+Somalia,167,3,35,,,6,11,8445,3,36,,Africa
+Haiti,75,5,69,,1070,22,21,9446,1.6,39,53.9,South America
+Djibouti,50,1,27,,2180,34,42,819,1.8,87,,Middle East
+Sierra Leone,162,3,178,34.8,610,36,50,5743,2.8,41,,Africa
+Guinea-Bissau,73,3,,,460,37,53,1646,3,30,,Africa
+Niger,133,3,199,28.7,630,37,50,13737,3.5,17,,Africa
+Sudan,171,3,51,60.9,1780,37,45,37707,2.2,42,,Africa
+Central African Republic,34,3,157,48.6,690,38,53,4265,1.7,38,,Africa
+Liberia,101,3,,60,260,39,40,3579,3.9,59,,Africa
+Burki Faso,28,3,131,23.6,1130,42,52,14359,3,19,27.2,Africa
+Eritrea,57,3,85,,680,43,50,4692,3.6,20,,Africa
+Angola,5,3,146,67.4,3890,49,51,16557,2.8,54,,Africa
+Chad,35,3,193,25.7,1170,49,71,10468,3.1,26,,Africa
+Cote d'Ivoire,44,3,132,48.7,1580,49,61,18914,1.8,45,14.8,Africa
+Comoros,39,3,66,,1140,50,60,818,2.5,38,,Africa
+Mali,111,3,192,24,1000,54,67,11968,3,31,36.1,Africa
+Pakistan,138,7,24,49.9,2410,57,73,160943,1.8,35,17,Asia
+Nigeria,134,3,126,69,1410,59,68,144720,2.4,49,70.8,Africa
+Solomon Islands,166,6,72,,1850,61,62,484,2.4,17,,Oceania
+Gambia,65,3,167,,1110,64,59,1663,2.8,55,,Africa
+Cameroon,31,3,141,67.9,2060,65,74,18175,2.1,56,17.1,Africa
+Yemen,200,1,83,54.1,2090,65,85,21732,3,28,,Middle East
+Guinea,72,3,153,29.5,1130,66,77,9181,2,33,,Africa
+Marshall Islands,113,6,,,8040,66,67,58,2.2,66,,Oceania
+Timor-Leste,181,6,49,,5100,67,70,1114,4.3,27,,Oceania
+Ethiopia,59,3,109,35.9,630,68,74,81021,2.5,16,23,Africa
+Senegal,159,3,100,39.3,1560,70,71,12072,2.5,42,17,Africa
+Gha,68,3,74,57.9,1240,71,73,23008,2.1,49,,Africa
+Benin,19,3,108,34.7,1250,73,87,8760,3.1,40,30.9,Africa
+Burundi,29,3,30,59.3,320,73,76,8173,3.9,10,,Africa
+Mozambique,123,3,185,38.7,660,73,79,20971,2.1,35,36.2,Africa
+Nepal,127,7,106,48.6,1010,74,84,27641,2,16,24.1,Asia
+Lesotho,100,3,98,82.2,1810,74,71,1995,0.7,19,,Africa
+Togo,182,3,89,53.2,770,75,86,6410,2.7,41,,Africa
+Cook Islands,42,6,,,,75,73,14,-2.5,64,,Oceania
+Oman,137,1,11,81.4,19740,75,73,2546,1.6,71,,Middle East
+Kenya,91,3,116,73.6,1470,76,75,36553,2.6,21,,Africa
+Singapore,163,6,7,92.5,43300,77,77,4382,1.3,100,,Oceania
+Uzbekistan,195,2,40,,2190,78,79,26981,1.4,37,2,Europe
+Dominican Republic,52,5,118,87,5550,78,76,9615,1.5,68,2.8,South America
+Saint Kitts and Nevis,152,5,,,12440,78,64,50,1.3,33,,South America
+Bhutan,21,7,62,,4000,79,79,649,1.8,11,,Asia
+mibia,125,3,88,85,4770,79,74,2047,1.3,36,,Africa
+Swaziland,173,3,73,79.6,4700,79,78,1134,0.8,24,,Africa
+Dominica,51,5,,,7870,79,75,68,-0.3,71,,South America
+Rwanda,151,3,44,64.9,730,81,76,9464,2.5,20,60.3,Africa
+Lao People's Democratic Republic,97,6,110,68.7,1740,81,86,5759,1.7,21,27,Oceania
+Lebanon,99,3,18,,9600,82,82,4055,1.1,87,,Africa
+Mauritania,114,3,88,51.2,1970,82,78,3044,2.7,41,25.9,Africa
+Iraq,83,1,17,74.1,,82,95,28506,1.8,67,,Middle East
+Equatorial Guinea,56,3,128,87,16620,83,91,496,2.4,39,,Africa
+Andorra,4,2,,,,83,83,74,1,93,,Europe
+Azerbaijan,11,2,31,98.8,5430,83,86,8406,0.6,52,3.7,Europe
+Kuwait,95,1,15,93.3,48310,83,84,2779,2.9,98,,Middle East
+Greda,70,5,53,,8770,83,84,106,0.3,31,,South America
+Armenia,8,2,30,99.4,4950,84,80,3010,-0.3,64,2,Europe
+Botswa,24,3,51,81.2,11730,85,83,1858,1.2,58,,Africa
+Kyrgyzstan,96,2,27,98.7,1790,85,86,5259,1.1,36,2,Europe
+Morocco,122,1,35,52.3,3860,85,91,30853,1.2,59,,Middle East
+Trinidad and Tobago,184,5,35,98.5,16800,85,85,1328,0.4,13,,South America
+Vanuatu,196,6,92,75.5,3480,86,88,221,2.5,24,,Oceania
+India,80,7,97,61,2460,87,90,1151751,1.5,29,34.3,Asia
+Cape Verde,33,1,104,81.2,2590,87,88,519,2.3,58,,Middle East
+Saudi Arabia,158,1,15,82.9,22300,87,87,24175,2.4,81,,Middle East
+Gabon,64,3,144,83.8,11180,88,88,1311,1.5,84,,Africa
+South Africa,168,3,65,82.4,8900,88,88,48282,0.7,60,10.7,Africa
+Zimbabwe,202,3,101,89.5,,88,87,13228,0.8,36,,Africa
+Belarus,16,2,22,99.6,9700,88,90,9742,-0.5,73,2,Europe
+Hungary,78,2,21,,16970,88,89,10058,-0.3,67,2,Europe
+Moldova,118,2,29,99,2660,88,88,3833,-1.1,47,2,Europe
+United Arab Emirates,191,1,37,88.5,31190,88,88,4248,3.5,77,,Middle East
+Colombia,38,5,92,92.8,6130,88,89,45558,1.4,73,7,South America
+Costa Rica,43,5,77,94.9,9220,88,87,4399,1.6,62,3.3,South America
+Saint Vincent and the Gredines,154,5,71,,6220,88,92,120,0.5,46,,South America
+Cambodia,30,7,52,73.6,1550,89,91,14197,1.7,20,66,Asia
+Lithuania,103,2,19,99.6,14550,89,90,3408,-0.5,66,2,Europe
+Switzerland,175,2,5,,40840,89,89,7455,0.4,76,,Europe
+Turkey,186,2,51,87.4,8410,89,93,73922,1.3,68,3.4,Europe
+Bahamas,12,4,46,,,89,87,327,1.2,91,,North America
+Chile,36,5,49,95.7,11300,89,90,16465,1,88,2,South America
+Guya,74,5,90,,3410,89,89,739,-0.1,28,,South America
+Bangladesh,14,7,135,47.5,1230,90,87,155991,1.8,25,41.3,Asia
+Croatia,45,2,14,98.1,13850,90,91,4556,0.1,57,2,Europe
+Kazakhstan,90,2,26,99.5,8700,90,90,15314,0.7,58,2,Europe
+Ukraine,190,2,29,99.4,6110,90,90,46557,-0.8,68,2,Europe
+Jordan,89,1,30,91.1,4820,90,89,5729,3.3,83,2,Middle East
+Jamaica,87,5,65,79.9,7050,90,90,2699,0.6,53,2,South America
+Nicaragua,132,5,119,76.7,2720,90,90,5532,1.3,59,45.1,South America
+Georgia,66,2,47,,3880,91,88,4433,-0.9,52,6.5,Europe
+Russia,150,2,28,99.4,12740,91,91,143221,-0.5,73,2,Europe
+Fiji,60,6,35,,4450,91,91,833,0.6,51,,Oceania
+Samoa,155,6,45,98.6,5090,91,90,185,0.8,23,,Oceania
+Vietm,198,6,25,90.3,2310,91,96,86206,1.4,27,,Oceania
+Libyan Arab Jamahiriya,102,1,7,85,11630,91,95,6039,2,85,,Middle East
+Malta,112,1,17,87.9,20990,91,92,405,0.5,96,,Middle East
+Venezuela,197,5,81,93,10970,91,91,27191,1.7,94,18.5,South America
+Bulgaria,27,2,40,98.2,10270,92,93,7693,-0.7,70,2,Europe
+Latvia,98,2,16,99.7,14840,92,89,2289,-0.6,68,2,Europe
+Macedonia,106,2,23,96.1,7850,92,92,2036,0.1,70,2,Europe
+Slovakia,164,2,21,,17060,92,92,5388,0,56,,Europe
+Philippines,144,6,55,92.6,3430,92,90,86264,2,63,14.8,Oceania
+Syria,176,1,58,80.8,4110,92,97,19408,2.7,51,,Middle East
+Guatemala,71,5,120,69.1,5120,92,96,13029,2.5,48,13.5,South America
+Albania,2,2,27,98.7,6000,93,94,3172,0.6,46,2,Europe
+Romania,149,2,33,97.3,10150,93,93,21532,-0.4,54,2,Europe
+Mongolia,120,6,28,97.8,2810,93,90,2605,0.9,57,10.8,Oceania
+United States of America,193,4,43,,44070,93,91,302841,1,81,,North America
+Algeria,3,3,6,69.9,5940,94,96,33351,1.5,64,,Africa
+Malawi,108,3,160,64.1,690,94,88,13571,2.6,18,20.8,Africa
+Zambia,201,3,161,68,1140,94,90,11696,1.9,35,63.8,Africa
+Czech Republic,48,2,11,,20920,94,91,10189,0,73,,Europe
+Estonia,58,2,21,99.8,18090,94,95,1340,-0.3,69,2,Europe
+Brunei Darussalam,26,6,31,92.7,49900,94,94,382,2.1,74,,Oceania
+Indonesia,81,6,54,90.4,3310,94,97,228864,1.2,49,7.5,Oceania
+Palau,139,6,,,14340,94,98,20,0.5,70,,Oceania
+Thailand,180,6,70,92.6,7440,94,94,63444,0.7,33,2,Oceania
+Tonga,183,6,17,98.9,5470,94,97,100,0.5,24,,Oceania
+Egypt,54,1,48,71.4,4940,94,98,74166,1.8,43,3.1,Middle East
+Qatar,148,1,19,89,,94,93,821,3.1,96,,Middle East
+El Salvador,55,5,104,74.1,5610,94,94,6762,1.4,60,19,South America
+Ireland,84,2,19,,34730,95,94,4221,1.9,61,,Europe
+Slovenia,165,2,6,99.7,23970,95,96,2001,0.1,51,,Europe
+Sweden,174,2,7,,34310,95,95,9078,0.4,84,,Europe
+Tajikistan,178,2,57,99.5,1560,95,99,6640,1.4,25,7.4,Europe
+Bolivia,22,5,97,86.7,3810,95,94,9354,1.9,65,23.2,South America
+Brazil,25,5,71,88.6,8700,95,93,189323,1.3,85,7.5,South America
+Paraguay,142,5,65,93.2,4040,95,94,6016,1.9,59,13.6,South America
+Chi,37,7,3,90.9,4660,96,100,1328474,0.6,42,9.9,Asia
+Madagascar,107,3,154,70.7,870,96,96,19159,2.7,27,61,Africa
+Mauritius,115,3,36,84.3,10640,96,94,1252,0.8,42,,Africa
+Denmark,49,2,6,,36190,96,95,5430,0.2,86,,Europe
+Poland,145,2,14,,14250,96,96,38140,-0.1,62,2,Europe
+Barbados,15,4,51,,15150,96,97,293,0.3,53,,North America
+Maldives,110,7,8,96.3,4740,97,97,300,1.7,30,,Asia
+Tanzania,179,3,139,69.4,980,97,98,39459,2.5,25,57.8,Africa
+Belgium,17,2,5,,33860,97,97,10430,0.3,97,,Europe
+Finland,61,2,11,,33170,97,97,5261,0.3,61,,Europe
+Iceland,79,2,16,,33740,97,98,298,0.9,93,,Europe
+Netherlands,128,2,7,,37940,97,99,16379,0.3,81,,Europe
+Australia,9,6,16,,33940,97,96,20530,1.1,88,,Oceania
+Israel,85,1,15,,23840,97,96,6810,1.7,92,,Middle East
+Tunisia,185,1,8,74.3,6490,97,96,10215,1.1,66,2,Middle East
+Mexico,116,4,94,91.6,11990,97,98,105342,1,76,3,North America
+Belize,18,5,90,70.3,7080,97,97,282,2.2,48,,South America
+Cuba,46,5,47,99.8,,97,96,11267,0.1,75,,South America
+Ecuador,53,5,100,91,6810,97,96,13202,1.1,63,,South America
+Honduras,76,5,108,80,3420,97,96,6969,2,47,14.9,South America
+Peru,143,5,59,87.9,6490,97,96,27589,1.1,73,10.5,South America
+Saint Lucia,153,5,51,,8500,97,99,163,1.1,28,,South America
+Sao Tome and Principe,157,3,91,84.9,1490,98,97,155,1.6,59,,Africa
+Austria,10,2,14,,36040,98,97,8327,0.4,66,,Europe
+Germany,67,2,11,,32680,98,98,82641,0,75,,Europe
+Italy,86,2,7,98.4,28970,98,99,58779,0.2,68,,Europe
+Luxembourg,104,2,11,,60870,98,96,461,1,83,,Europe
+Norway,136,2,8,,50070,98,98,4669,0.6,77,,Europe
+Portugal,146,2,19,93.9,19960,98,98,10579,0.5,58,,Europe
+Kiribati,92,6,,,6230,98,96,94,1.7,42,,Oceania
+Niue,135,6,,,,98,99,2,-2.2,33,,Oceania
+Bahrain,13,1,14,86.5,34310,98,98,739,1.9,97,,Middle East
+Argenti,7,5,62,97.2,11670,98,99,39134,1,90,6.6,South America
+Pama,140,5,84,91.9,8690,98,99,3288,1.7,72,7.4,South America
+Surime,172,5,62,89.6,7720,98,95,455,0.6,74,,South America
+Cyprus,47,2,5,96.8,25060,99,99,846,1.1,69,,Europe
+France,62,2,8,,32240,99,98,61330,0.6,77,,Europe
+Greece,69,2,11,96,30870,99,100,11123,0.2,59,,Europe
+Spain,169,2,10,97.2,28200,99,100,43887,1.1,77,,Europe
+United Kingdom,192,2,27,,33650,99,98,60512,0.4,90,,Europe
+New Zealand,131,6,27,,25750,99,99,4140,1,86,,Oceania
+Sri Lanka,170,7,29,90.7,3730,100,99,19207,0.5,15,5.6,Asia
+Seychelles,161,3,,91.8,14360,100,99,86,0.7,51,,Africa
+Japan,88,6,6,,32840,100,100,127953,0,66,,Oceania
+Malaysia,109,6,12,88.7,12160,100,100,26114,1.8,68,,Oceania
+Myanmar,124,6,29,89.9,510,100,99,48379,0.9,31,,Oceania
+Iran (Islamic Republic of),82,1,35,82.4,9800,100,91,70270,1.2,67,,Middle East
+Cada,32,4,14,,36280,100,99,32577,0.9,80,,North America
+Uruguay,194,5,64,96.8,9940,100,100,3331,0.2,92,2,South America

@@ -1,0 +1,227 @@
+**EX 1, Módulo 2 (Agregaciones)**
+
+SELECT
+round(avg (CASE WHEN continent = 'Africa' THEN gross_income_per_capita END),2) AS africa_AVG_GDP,
+sum (CASE WHEN continent = 'Africa' THEN population_in_thousands END) AS total_population,
+COUNT (CASE WHEN continent = 'Africa' THEN country END) AS count_countries
+FROM world_health_org;
+
+
+
+**EX 2, Módulo 2 (Agregaciones)**
+
+SELECT homeworld, COUNT(name) AS count_characters
+FROM star_wars_characters
+--WHERE homeworld !='NA'
+GROUP BY homeworld
+ORDER BY COUNT(name) DESC
+LIMIT 5;
+
+
+
+**EX 3, Módulo 2 (Agregaciones)**
+
+SELECT actor, ROUND(SUM(Bond_Actor_Salary),1) as bond_salary
+FROM james_bond
+WHERE Bond_Actor_Salary IS NOT NULL  --en sqlite: bond_actor_salary != 'NA'
+GROUP BY 1
+ORDER BY bond_salary DESC
+
+
+
+**EX 4, Módulo 2 ((Agregaciones))**
+
+SELECT
+
+  CASE WHEN gender LIKE '%Action%' THEN 'Action Movies' ELSE 'Rest of Movies' END as gender
+
+, COUNT(*) as total_movies
+
+, ROUND(AVG(imdb_score),2) as AVG_imdb_score
+
+FROM imdb_movies
+
+GROUP BY 1
+
+
+
+**EX 5, Módulo 2 ((Agregaciones))**
+
+
+SELECT
+
+Director
+
+,ROUND(SUM(Box_Office)) as total_box_office
+
+FROM `sepe-sql-256409.SQL_Basics.james_bond`
+
+GROUP BY 1
+
+HAVING total_box_office>1500
+
+ORDER BY total_box_office DESC
+
+
+
+**EX 6, Módulo 2 ((Agregaciones))**
+
+SELECT 
+
+Sub_Metal_Genre
+
+,COUNT(Album) as count_albums
+
+FROM `rolling_top_albums`
+
+GROUP BY 1
+
+HAVING count_albums>=10
+
+ORDER BY count_albums DESC
+
+
+
+**EX 7, Módulo 2 ((Agregaciones))**
+
+
+SELECT
+
+CASE
+
+  WHEN upper(Artist) LIKE '%DEATH%' THEN 'DEATH'
+
+  WHEN upper(Artist) LIKE '%BLACK%' THEN 'BLACK'
+
+  WHEN upper(Artist) LIKE '%GOD%' THEN 'GOD'
+
+  END AS artist_keyword,
+
+COUNT(DISTINCT Artist) AS count_artist
+
+FROM `rolling_top_albums`
+
+WHERE
+
+  Artist LIKE '%DEATH%'
+
+  OR Artist LIKE '%BLACK%'
+
+  OR Artist LIKE '%GOD%'
+
+GROUP BY 1
+
+ORDER BY 2 DESC
+
+
+
+**EX 8, Módulo 2 ((Agregaciones))**
+
+
+SELECT
+
+  EXTRACT(MONTH FROM Date) as month,
+
+  EXTRACT(YEAR FROM Date) as year,
+
+  ROUND(AVG(Open),2) as AVG_open_rate,
+
+  ROUND(AVG(Volume_USD)) as AVG_volume_USD
+
+FROM Basics.bitcoin_daily_rates
+
+WHERE
+
+  EXTRACT(YEAR FROM Date) >= 2016
+
+GROUP BY 1,2
+
+ORDER BY year,month
+
+
+*****EN SQLite
+
+SELECT
+
+  strftime('%m', Date) as month,
+
+  strftime ('%Y', Date) as year,
+
+  ROUND(AVG(Open),2) as AVG_open_rate,
+
+  ROUND(AVG(Volume_USD)) as AVG_volume_USD
+
+FROM bitcoin_daily_rates_formatdate
+
+WHERE
+
+  year >= '2016'
+
+GROUP BY 2,1
+
+
+
+**EX 9, Módulo 2 ((Agregaciones))**
+
+
+SELECT date,
+
+  --DATE_TRUCK(date, WEEK) AS comienzo_de_semana NO FUNCIONA EN SQLite
+
+  srtftime('%W', date) AS num_semana,
+  
+  max(high) AS max_rate
+
+FROM amazon_stocks_formatdate
+
+
+
+**EX 10, Módulo 2 ((Agregaciones))**
+
+SELECT
+
+  channelGrouping
+
+  ,SUM(CASE WHEN deviceCategory = 'mobile' THEN sessions END) AS mobile_sessions
+
+  ,SUM(CASE WHEN deviceCategory = 'desktop' THEN sessions END) AS desktop_sessions
+
+  ,SUM(CASE WHEN deviceCategory = 'tablet' THEN sessions END) AS tablet_sessions
+
+  ,SUM(sessions) AS total_sessions
+
+FROM google_analytics_formatdate
+
+WHERE
+  
+  --date BETWEEN '2019-10-01' AND '2019-10-31' **esto seria para SQLite**
+
+  strftime('%Y', date)='2019?
+
+  AND EXTRACT(MONTH FROM date)=10
+
+GROUP BY 1
+
+ORDER BY total_sessions DESC
+
+
+
+*******En SQLite:
+
+SELECT channelGrouping,
+
+  SUM(CASE WHEN deviceCategory = 'mobile' THEN sessions END) AS mobile_sessions,
+
+  SUM(CASE WHEN deviceCategory = 'desktop' THEN sessions END) AS desktop_sessions,
+
+  SUM(CASE WHEN deviceCategory = 'tablet' THEN sessions END) AS tablet_sessions,
+
+  SUM(sessions) AS total_sessions
+
+FROM google_analytics_formatdate
+WHERE
+  strftime('%Y', date)='2019' AND strftime('%m', date)='10'
+GROUP BY 1
+ORDER BY total_sessions DESC
+
+

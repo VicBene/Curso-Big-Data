@@ -1,0 +1,91 @@
+/* QUOTE MESSAGE */
+ul.quote-message {
+  list-style: none;
+}
+ul.quote-message li .quote-message-content {
+  margin-bottom: 10px;
+  padding: 10px;
+  background: #efefef;
+  position: relative;
+}
+ul.quote-message li .quote-message-content.customer {
+  background: #2d2d2d;
+  color: #ffffff;
+}
+ul.quote-message li .quote-message-content:after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -10px;
+  left: 20px;
+  width: 0;
+  height: 0;
+  border-width: 10px 10px 0 0;
+  border-style: solid;
+  border-color: #efefef transparent;
+}
+ul.quote-message li .quote-message-content.customer:after {
+  border-color: #2d2d2d transparent;
+}
+
+/* MAGNIFIC POPUP */
+.rnb-popup {
+  padding: 100px 100px 50px;
+  position: relative;
+  background: #FFF;
+  width: auto;
+  width: 50%;
+  margin: 20px auto;
+}
+
+.rnb-popup input, .rnb-popup textarea {
+  width: 100%;
+}
+
+/* ------------------------------ */
+/* gdpr checkbox style */
+/* ------------------------------ */
+.rnb-gdpr-checkbox-field {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+}
+
+.rnb-gdpr-checkbox-field input[type="checkbox"] {
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.rnb-gdpr-checkbox-field-text {
+  padding-left: 34px;
+}
+
+.rnb-gdpr-checkbox-field-text:before {
+  content: '';
+  display: block;
+  width: 18px;
+  height: 18px;
+  border: 2px solid #d7d7d7;
+  position: absolute;
+  left: 0;
+  top: 5px;
+  border-radius: 2px;
+  -webkit-transition: all .12s, border-color .08s;
+  transition: all .12s, border-color .08s;
+}
+
+.rnb-gdpr-checkbox-field input[type="checkbox"]:checked + span:before {
+  width: 10px;
+  top: -2px;
+  left: 5px;
+  border-radius: 0;
+  opacity: 1;
+  border-color: #2d2d2d;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}

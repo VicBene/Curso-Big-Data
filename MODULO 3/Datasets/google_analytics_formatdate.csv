@@ -1,0 +1,501 @@
+date,channelGrouping,medium,source,deviceCategory,sessions,users
+2019-10-15,Paid Search,cpc,google,mobile,62,57
+2019-10-16,Paid Search,cpc,google,mobile,55,49
+2019-10-17,Paid Search,cpc,google,mobile,39,34
+2019-10-19,Paid Search,cpc,google,mobile,54,51
+2019-10-20,Paid Search,cpc,google,mobile,37,33
+2019-10-22,Paid Search,cpc,google,mobile,70,69
+2019-10-23,Paid Search,cpc,google,mobile,39,38
+2019-10-24,Paid Search,cpc,google,mobile,32,32
+2019-10-26,Paid Search,cpc,google,mobile,45,44
+2019-10-27,Paid Search,cpc,google,mobile,52,48
+2019-10-02,Direct,(none),(direct),mobile,28,24
+2019-10-15,Direct,(none),(direct),mobile,34,29
+2019-10-24,Paid Search,cpc,facebook,mobile,181,177
+2019-10-25,Paid Search,cpc,facebook,mobile,196,189
+2019-10-26,Paid Search,cpc,facebook,mobile,188,185
+2019-10-27,Paid Search,cpc,facebook,mobile,305,299
+2019-10-28,Paid Search,cpc,facebook,mobile,248,245
+2019-10-29,Paid Search,cpc,facebook,mobile,122,119
+2019-10-15,Paid Search,cpc,pinterest,mobile,36,33
+2019-10-17,Paid Search,cpc,pinterest,mobile,49,47
+2019-10-18,Paid Search,cpc,pinterest,mobile,36,36
+2019-10-17,Social,referral,m.facebook.com,mobile,80,78
+2019-10-18,Social,referral,m.facebook.com,mobile,48,47
+2019-10-24,Social,referral,m.facebook.com,mobile,45,44
+2019-09-30,Social,referral,l.instagram.com,mobile,56,56
+2019-10-16,Social,referral,l.instagram.com,mobile,23,23
+2019-10-24,Social,referral,l.instagram.com,mobile,32,30
+2019-10-28,Social,referral,l.instagram.com,mobile,41,41
+2019-10-06,Referral,referral,2mrmh.r.a.d.sendibm1.com,mobile,51,47
+2019-10-07,Referral,referral,2mrmh.r.a.d.sendibm1.com,mobile,55,44
+2019-09-25,Organic Search,organic,bing,desktop,1,1
+2019-10-01,Organic Search,organic,bing,desktop,1,1
+2019-10-08,Organic Search,organic,bing,desktop,1,1
+2019-10-09,Organic Search,organic,bing,desktop,1,1
+2019-10-13,Organic Search,organic,bing,desktop,1,1
+2019-10-14,Organic Search,organic,bing,mobile,1,1
+2019-10-20,Organic Search,organic,bing,mobile,1,1
+2019-10-22,Organic Search,organic,bing,mobile,1,1
+2019-10-23,Organic Search,organic,bing,desktop,1,1
+2019-10-25,Organic Search,organic,bing,desktop,1,1
+2019-10-26,Organic Search,organic,bing,mobile,1,1
+2019-10-28,Organic Search,organic,bing,mobile,1,1
+2019-10-29,Organic Search,organic,bing,desktop,1,1
+2019-10-04,Organic Search,organic,yahoo,mobile,1,1
+2019-10-05,Organic Search,organic,yahoo,mobile,1,1
+2019-10-13,Organic Search,organic,yahoo,mobile,1,1
+2019-10-17,Organic Search,organic,yahoo,mobile,1,1
+2019-10-18,Organic Search,organic,yahoo,mobile,1,1
+2019-10-29,Organic Search,organic,yahoo,desktop,1,1
+2019-09-22,Organic Search,organic,google,tablet,1,1
+2019-09-26,Organic Search,organic,google,tablet,1,1
+2019-09-28,Organic Search,organic,google,tablet,1,1
+2019-10-01,Organic Search,organic,google,tablet,1,1
+2019-10-04,Organic Search,organic,google,tablet,1,1
+2019-10-05,Organic Search,organic,google,desktop,1,1
+2019-10-06,Organic Search,organic,google,tablet,1,1
+2019-10-08,Organic Search,organic,google,tablet,1,1
+2019-10-10,Organic Search,organic,google,tablet,1,1
+2019-10-11,Organic Search,organic,google,desktop,1,1
+2019-10-11,Organic Search,organic,google,tablet,1,1
+2019-10-13,Organic Search,organic,google,tablet,1,1
+2019-10-16,Paid Search,cpc,google,tablet,1,1
+2019-10-17,Organic Search,organic,google,tablet,1,1
+2019-10-17,Paid Search,cpc,google,desktop,1,1
+2019-10-18,Organic Search,organic,google,desktop,1,1
+2019-10-18,Paid Search,cpc,google,desktop,1,1
+2019-10-18,Paid Search,cpc,google,tablet,1,1
+2019-10-19,Paid Search,cpc,google,tablet,1,1
+2019-10-21,Organic Search,organic,google,tablet,1,1
+2019-10-25,Organic Search,organic,google,tablet,1,1
+2019-10-26,Paid Search,cpc,google,desktop,1,1
+2019-10-27,Organic Search,organic,google,desktop,1,1
+2019-10-28,Organic Search,organic,google,tablet,1,1
+2019-10-28,Paid Search,cpc,google,desktop,1,1
+2019-09-22,Direct,(none),(direct),tablet,1,1
+2019-09-24,Direct,(none),(direct),tablet,1,1
+2019-09-25,Direct,(none),(direct),desktop,1,1
+2019-09-25,Direct,(none),(direct),tablet,1,1
+2019-09-28,Direct,(none),(direct),tablet,1,1
+2019-09-29,Direct,(none),(direct),tablet,1,1
+2019-10-01,Direct,(none),(direct),desktop,1,1
+2019-10-01,Direct,(none),(direct),tablet,1,1
+2019-10-02,Direct,(none),(direct),tablet,1,1
+2019-10-03,Direct,(none),(direct),tablet,1,1
+2019-10-09,Direct,(none),(direct),tablet,1,1
+2019-10-10,Direct,(none),(direct),desktop,1,1
+2019-10-11,Direct,(none),(direct),tablet,1,1
+2019-10-12,Direct,(none),(direct),desktop,1,1
+2019-10-18,Direct,(none),(direct),desktop,1,1
+2019-10-18,Direct,(none),(direct),tablet,1,1
+2019-10-19,Direct,(none),(direct),tablet,1,1
+2019-10-20,Direct,(none),(direct),desktop,1,1
+2019-10-20,Direct,(none),(direct),tablet,1,1
+2019-10-21,Direct,(none),(direct),tablet,1,1
+2019-10-23,Direct,(none),(direct),tablet,1,1
+2019-10-26,Direct,(none),(direct),desktop,1,1
+2019-10-27,Direct,(none),(direct),desktop,1,1
+2019-10-27,Direct,(none),(direct),tablet,1,1
+2019-10-28,Direct,(none),(direct),tablet,1,1
+2019-10-29,Direct,(none),(direct),desktop,1,1
+2019-10-24,Paid Search,cpc,facebook,desktop,1,1
+2019-10-25,Paid Search,cpc,facebook,desktop,1,1
+2019-10-28,Paid Search,cpc,facebook,desktop,1,1
+2019-10-29,Paid Search,cpc,facebook,desktop,1,1
+2019-10-18,Paid Search,cpc,pinterest,tablet,1,1
+2019-10-17,Referral,referral,tineye.com,desktop,1,1
+2019-10-21,Referral,referral,zankyou.es,mobile,1,1
+2019-10-18,Referral,referral,cibelina.com,mobile,1,1
+2019-09-21,Social,referral,facebook.com,desktop,1,1
+2019-09-27,Social,referral,facebook.com,desktop,1,1
+2019-10-01,Social,referral,facebook.com,desktop,1,1
+2019-10-02,Social,referral,facebook.com,mobile,1,1
+2019-10-03,Social,referral,facebook.com,desktop,1,1
+2019-10-03,Social,referral,facebook.com,mobile,1,1
+2019-10-05,Social,referral,facebook.com,desktop,1,1
+2019-10-06,Social,referral,facebook.com,desktop,1,1
+2019-10-08,Social,referral,facebook.com,desktop,1,1
+2019-10-08,Social,referral,facebook.com,mobile,1,1
+2019-10-10,Social,referral,facebook.com,desktop,1,1
+2019-10-12,Social,referral,facebook.com,desktop,1,1
+2019-10-14,Social,referral,facebook.com,desktop,1,1
+2019-10-15,Social,referral,facebook.com,desktop,1,1
+2019-10-17,Social,referral,facebook.com,tablet,1,1
+2019-10-19,Social,referral,facebook.com,desktop,1,1
+2019-10-20,Social,referral,facebook.com,mobile,1,1
+2019-10-21,Social,referral,facebook.com,mobile,1,1
+2019-10-22,Social,referral,facebook.com,desktop,1,1
+2019-10-22,Social,referral,facebook.com,mobile,1,1
+2019-10-23,Social,referral,facebook.com,mobile,1,1
+2019-10-24,Social,referral,facebook.com,desktop,1,1
+2019-10-26,Social,referral,facebook.com,desktop,1,1
+2019-10-27,Social,referral,facebook.com,desktop,1,1
+2019-10-28,Social,referral,facebook.com,mobile,1,1
+2019-10-03,Social,referral,pinterest.ca,desktop,1,1
+2019-10-05,Social,referral,pinterest.es,mobile,1,1
+2019-10-07,Social,referral,pinterest.es,desktop,1,1
+2019-10-08,Social,referral,pinterest.es,desktop,1,1
+2019-10-08,Social,referral,pinterest.es,mobile,1,1
+2019-10-11,Social,referral,pinterest.es,desktop,1,1
+2019-10-17,Social,referral,pinterest.es,desktop,1,1
+2019-10-22,Social,referral,pinterest.es,desktop,1,1
+2019-10-25,Social,referral,pinterest.es,mobile,1,1
+2019-10-28,Social,referral,pinterest.es,mobile,1,1
+2019-09-22,Social,referral,instagram.com,tablet,1,1
+2019-10-09,Social,referral,instagram.com,tablet,1,1
+2019-09-25,Social,referral,pinterest.com,mobile,1,1
+2019-09-28,Social,referral,pinterest.com,mobile,1,1
+2019-09-29,Social,referral,pinterest.com,mobile,1,1
+2019-10-05,Social,referral,pinterest.com,mobile,1,1
+2019-10-09,Social,referral,pinterest.com,mobile,1,1
+2019-10-09,Social,referral,pinterest.com,tablet,1,1
+2019-10-15,Social,referral,pinterest.com,mobile,1,1
+2019-10-16,Social,referral,pinterest.com,tablet,1,1
+2019-10-19,Social,referral,pinterest.com,mobile,1,1
+2019-10-20,Social,referral,pinterest.com,tablet,1,1
+2019-10-24,Social,referral,pinterest.com,mobile,1,1
+2019-10-28,Social,referral,pinterest.com,mobile,1,1
+2019-10-29,Social,referral,pinterest.com,mobile,1,1
+2019-09-21,Referral,referral,sis.redsys.es,desktop,1,1
+2019-09-22,Referral,referral,sis.redsys.es,desktop,1,1
+2019-10-01,Referral,referral,sis.redsys.es,desktop,1,1
+2019-10-02,Referral,referral,sis.redsys.es,desktop,1,1
+2019-10-06,Referral,referral,sis.redsys.es,desktop,1,1
+2019-10-07,Referral,referral,sis.redsys.es,desktop,1,1
+2019-10-09,Referral,referral,sis.redsys.es,desktop,1,1
+2019-10-10,Referral,referral,sis.redsys.es,desktop,1,1
+2019-09-22,Social,referral,l.facebook.com,mobile,1,1
+2019-09-23,Social,referral,l.facebook.com,mobile,1,1
+2019-09-25,Social,referral,l.facebook.com,mobile,1,1
+2019-09-27,Social,referral,l.facebook.com,mobile,1,1
+2019-09-28,Social,referral,l.facebook.com,desktop,1,1
+2019-09-28,Social,referral,l.facebook.com,mobile,1,1
+2019-10-10,Social,referral,l.facebook.com,tablet,1,1
+2019-10-16,Social,referral,l.facebook.com,mobile,1,1
+2019-10-17,Social,referral,l.facebook.com,mobile,1,1
+2019-10-22,Social,referral,l.facebook.com,mobile,1,1
+2019-10-29,Social,referral,l.facebook.com,desktop,1,1
+2019-09-21,Social,referral,m.facebook.com,tablet,1,1
+2019-09-27,Social,referral,m.facebook.com,mobile,1,1
+2019-09-28,Social,referral,m.facebook.com,tablet,1,1
+2019-10-02,Social,referral,m.facebook.com,tablet,1,1
+2019-10-03,Social,referral,m.facebook.com,tablet,1,1
+2019-10-04,Social,referral,m.facebook.com,tablet,1,1
+2019-10-06,Social,referral,m.facebook.com,tablet,1,1
+2019-10-09,Social,referral,m.facebook.com,tablet,1,1
+2019-10-10,Social,referral,m.facebook.com,tablet,1,1
+2019-10-14,Social,referral,m.facebook.com,tablet,1,1
+2019-10-16,Social,referral,m.facebook.com,tablet,1,1
+2019-10-20,Social,referral,m.facebook.com,tablet,1,1
+2019-10-22,Social,referral,m.facebook.com,tablet,1,1
+2019-10-27,Social,referral,m.facebook.com,tablet,1,1
+2019-10-28,Social,referral,m.facebook.com,tablet,1,1
+2019-09-30,Social,referral,l.instagram.com,tablet,1,1
+2019-10-01,Social,referral,l.instagram.com,tablet,1,1
+2019-10-03,Social,referral,l.instagram.com,tablet,1,1
+2019-10-06,Social,referral,l.instagram.com,desktop,1,1
+2019-10-07,Social,referral,l.instagram.com,tablet,1,1
+2019-10-17,Social,referral,l.instagram.com,desktop,1,1
+2019-10-23,Social,referral,l.instagram.com,desktop,1,1
+2019-10-28,Social,referral,l.instagram.com,desktop,1,1
+2019-10-28,Social,referral,l.instagram.com,tablet,1,1
+2019-09-28,Social,referral,lm.facebook.com,mobile,1,1
+2019-09-30,Social,referral,lm.facebook.com,mobile,1,1
+2019-10-07,Social,referral,lm.facebook.com,mobile,1,1
+2019-10-08,Social,referral,lm.facebook.com,mobile,1,1
+2019-10-17,Social,referral,lm.facebook.com,desktop,1,1
+2019-10-20,Social,referral,lm.facebook.com,mobile,1,1
+2019-10-28,Social,referral,lm.facebook.com,tablet,1,1
+2019-10-09,Referral,referral,app.kwfinder.com,desktop,1,1
+2019-10-09,Social,referral,ar.pinterest.com,desktop,1,1
+2019-10-19,Social,referral,ar.pinterest.com,desktop,1,1
+2019-09-26,Social,referral,co.pinterest.com,mobile,1,1
+2019-09-27,Social,referral,gr.pinterest.com,desktop,1,1
+2019-10-16,Social,referral,tr.pinterest.com,desktop,1,1
+2019-10-15,Referral,referral,es.search.yahoo.com,desktop,1,1
+2019-10-21,Referral,referral,invitadaperfecta.es,mobile,1,1
+2019-10-07,Referral,referral,eto.my.salesforce.com,desktop,1,1
+2019-10-15,Referral,referral,eto.lightning.force.com,desktop,1,1
+2019-09-21,Referral,referral,miaventuraconlamoda.com,mobile,1,1
+2019-09-26,Referral,referral,miaventuraconlamoda.com,mobile,1,1
+2019-09-28,Referral,referral,miaventuraconlamoda.com,mobile,1,1
+2019-10-05,Referral,referral,miaventuraconlamoda.com,mobile,1,1
+2019-10-19,Referral,referral,miaventuraconlamoda.com,mobile,1,1
+2019-09-21,Referral,referral,2mrmh.r.a.d.sendibm1.com,desktop,1,1
+2019-09-23,Referral,referral,2mrmh.r.a.d.sendibm1.com,desktop,1,1
+2019-09-23,Referral,referral,2mrmh.r.a.d.sendibm1.com,tablet,1,1
+2019-09-28,Referral,referral,2mrmh.r.a.d.sendibm1.com,tablet,1,1
+2019-09-30,Referral,referral,2mrmh.r.a.d.sendibm1.com,desktop,1,1
+2019-10-01,Referral,referral,2mrmh.r.a.d.sendibm1.com,desktop,1,1
+2019-10-03,Referral,referral,2mrmh.r.a.d.sendibm1.com,tablet,1,1
+2019-10-08,Referral,referral,2mrmh.r.a.d.sendibm1.com,tablet,1,1
+2019-10-09,Referral,referral,2mrmh.r.a.d.sendibm1.com,tablet,1,1
+2019-10-10,Referral,referral,2mrmh.r.a.d.sendibm1.com,tablet,1,1
+2019-10-20,Referral,referral,2mrmh.r.a.d.sendibm1.com,mobile,1,1
+2019-10-06,Referral,referral,2mrmh.r.bh.d.sendibt3.com,mobile,1,1
+2019-10-01,Referral,referral,bfjcihf.r.af.d.sendibt2.com,mobile,1,1
+2019-10-06,Referral,referral,bfjcihf.r.af.d.sendibt2.com,mobile,1,1
+2019-10-11,Referral,referral,bfjcihf.r.af.d.sendibt2.com,mobile,1,1
+2019-10-18,Referral,referral,bfjcihf.r.af.d.sendibt2.com,mobile,1,1
+2019-10-07,Referral,referral,bfjcihf.r.bh.d.sendibt3.com,mobile,1,1
+2019-10-17,Referral,referral,bfjcihf.r.bh.d.sendibt3.com,tablet,1,1
+2019-10-20,Referral,referral,bfjcihf.r.bh.d.sendibt3.com,desktop,1,1
+2019-10-20,Referral,referral,bfjcihf.r.bh.d.sendibt3.com,tablet,1,1
+2019-10-28,Referral,referral,bfjcihf.r.bh.d.sendibt3.com,mobile,1,1
+2019-10-29,Referral,referral,bfjcihf.r.bh.d.sendibt3.com,mobile,1,1
+2019-10-03,Organic Search,organic,bing,desktop,2,2
+2019-10-21,Organic Search,organic,bing,desktop,2,1
+2019-10-07,Social,referral,t.co,mobile,2,1
+2019-09-21,Organic Search,organic,google,tablet,2,2
+2019-09-25,Organic Search,organic,google,tablet,2,2
+2019-09-27,Organic Search,organic,google,tablet,2,2
+2019-10-08,Organic Search,organic,google,desktop,2,2
+2019-10-12,Organic Search,organic,google,desktop,2,2
+2019-10-16,Organic Search,organic,google,desktop,2,2
+2019-10-16,Paid Search,cpc,google,desktop,2,2
+2019-10-19,Organic Search,organic,google,tablet,2,2
+2019-10-19,Paid Search,cpc,google,desktop,2,2
+2019-10-22,Paid Search,cpc,google,tablet,2,2
+2019-10-28,Organic Search,organic,google,desktop,2,2
+2019-09-21,Direct,(none),(direct),tablet,2,2
+2019-09-23,Direct,(none),(direct),tablet,2,2
+2019-09-26,Direct,(none),(direct),tablet,2,2
+2019-09-28,Direct,(none),(direct),desktop,2,2
+2019-10-03,Direct,(none),(direct),desktop,2,2
+2019-10-04,Direct,(none),(direct),tablet,2,1
+2019-10-06,Direct,(none),(direct),desktop,2,2
+2019-10-06,Direct,(none),(direct),tablet,2,2
+2019-10-07,Direct,(none),(direct),tablet,2,2
+2019-10-08,Direct,(none),(direct),desktop,2,2
+2019-10-09,Direct,(none),(direct),desktop,2,2
+2019-10-13,Direct,(none),(direct),desktop,2,2
+2019-10-13,Direct,(none),(direct),tablet,2,2
+2019-10-17,Direct,(none),(direct),desktop,2,2
+2019-10-23,Paid Search,cpc,facebook,desktop,2,2
+2019-10-15,Paid Search,cpc,pinterest,tablet,2,2
+2019-10-16,Paid Search,cpc,pinterest,tablet,2,2
+2019-10-19,Paid Search,cpc,pinterest,tablet,2,2
+2019-09-22,Email,email,newsletter,mobile,2,2
+2019-09-23,Email,email,newsletter,mobile,2,1
+2019-09-24,Social,referral,facebook.com,desktop,2,2
+2019-09-26,Social,referral,facebook.com,desktop,2,2
+2019-09-28,Social,referral,facebook.com,desktop,2,2
+2019-10-02,Social,referral,facebook.com,desktop,2,2
+2019-10-06,Social,referral,facebook.com,mobile,2,2
+2019-10-07,Social,referral,facebook.com,mobile,2,2
+2019-10-09,Social,referral,facebook.com,desktop,2,2
+2019-10-09,Social,referral,facebook.com,mobile,2,2
+2019-10-10,Social,referral,facebook.com,mobile,2,2
+2019-10-11,Social,referral,facebook.com,desktop,2,2
+2019-10-14,Social,referral,facebook.com,mobile,2,2
+2019-10-17,Social,referral,facebook.com,mobile,2,2
+2019-10-21,Social,referral,facebook.com,desktop,2,2
+2019-10-24,Social,referral,facebook.com,mobile,2,2
+2019-10-28,Social,referral,facebook.com,desktop,2,2
+2019-10-29,Social,referral,facebook.com,desktop,2,2
+2019-10-13,Social,referral,instagram.com,mobile,2,2
+2019-10-17,Social,referral,instagram.com,mobile,2,2
+2019-09-22,Social,referral,pinterest.com,mobile,2,2
+2019-10-08,Social,referral,pinterest.com,mobile,2,2
+2019-10-10,Social,referral,pinterest.com,mobile,2,2
+2019-10-11,Social,referral,pinterest.com,tablet,2,2
+2019-10-17,Social,referral,pinterest.com,mobile,2,2
+2019-10-21,Social,referral,pinterest.com,mobile,2,2
+2019-10-22,Social,referral,pinterest.com,mobile,2,2
+2019-10-27,Social,referral,pinterest.com,mobile,2,2
+2019-10-09,Social,referral,l.facebook.com,mobile,2,2
+2019-10-20,Social,referral,l.facebook.com,desktop,2,2
+2019-10-05,Social,referral,m.facebook.com,mobile,2,2
+2019-10-18,Social,referral,m.facebook.com,tablet,2,2
+2019-09-30,Social,referral,l.instagram.com,desktop,2,2
+2019-10-04,Social,referral,l.instagram.com,desktop,2,2
+2019-10-09,Social,referral,l.instagram.com,tablet,2,2
+2019-10-16,Social,referral,l.instagram.com,desktop,2,2
+2019-10-16,Social,referral,l.instagram.com,tablet,2,2
+2019-10-23,Social,referral,l.instagram.com,mobile,2,2
+2019-10-27,Social,referral,l.instagram.com,desktop,2,2
+2019-10-25,Social,referral,lm.facebook.com,mobile,2,2
+2019-10-12,Social,referral,br.pinterest.com,desktop,2,1
+2019-10-11,Social,referral,tr.pinterest.com,desktop,2,1
+2019-09-22,Referral,referral,invitadaperfecta.es,mobile,2,2
+2019-09-26,Referral,referral,2mrmh.r.a.d.sendibm1.com,mobile,2,1
+2019-10-05,Referral,referral,2mrmh.r.a.d.sendibm1.com,mobile,2,1
+2019-10-06,Referral,referral,2mrmh.r.a.d.sendibm1.com,desktop,2,2
+2019-10-06,Referral,referral,2mrmh.r.a.d.sendibm1.com,tablet,2,2
+2019-10-07,Referral,referral,2mrmh.r.a.d.sendibm1.com,tablet,2,2
+2019-10-25,Referral,referral,bfjcihf.r.bh.d.sendibt3.com,mobile,2,1
+2019-10-26,Referral,referral,bfjcihf.r.bh.d.sendibt3.com,mobile,2,1
+2019-09-22,Organic Search,organic,google,desktop,3,3
+2019-09-30,Organic Search,organic,google,tablet,3,3
+2019-10-07,Organic Search,organic,google,desktop,3,1
+2019-10-07,Organic Search,organic,google,tablet,3,3
+2019-10-14,Organic Search,organic,google,tablet,3,3
+2019-10-19,Organic Search,organic,google,desktop,3,3
+2019-10-20,Organic Search,organic,google,desktop,3,3
+2019-10-21,Paid Search,cpc,google,tablet,3,3
+2019-10-23,Paid Search,cpc,google,desktop,3,3
+2019-10-23,Paid Search,cpc,google,tablet,3,3
+2019-10-26,Organic Search,organic,google,desktop,3,3
+2019-10-28,Paid Search,cpc,google,tablet,3,3
+2019-10-29,Paid Search,cpc,google,desktop,3,3
+2019-09-23,Direct,(none),(direct),desktop,3,2
+2019-09-24,Direct,(none),(direct),desktop,3,3
+2019-09-29,Direct,(none),(direct),desktop,3,3
+2019-09-30,Direct,(none),(direct),desktop,3,2
+2019-10-04,Direct,(none),(direct),desktop,3,3
+2019-10-15,Direct,(none),(direct),tablet,3,3
+2019-10-22,Direct,(none),(direct),desktop,3,1
+2019-10-26,Paid Search,cpc,facebook,desktop,3,3
+2019-10-26,Paid Search,cpc,facebook,tablet,3,3
+2019-10-27,Paid Search,cpc,facebook,desktop,3,3
+2019-10-27,Paid Search,cpc,facebook,tablet,3,3
+2019-10-29,Paid Search,cpc,facebook,tablet,3,3
+2019-09-23,Social,referral,facebook.com,desktop,3,3
+2019-10-20,Social,referral,facebook.com,desktop,3,3
+2019-10-23,Social,referral,facebook.com,desktop,3,3
+2019-09-24,Social,referral,instagram.com,mobile,3,3
+2019-09-29,Social,referral,instagram.com,mobile,3,3
+2019-10-05,Social,referral,instagram.com,mobile,3,3
+2019-10-06,Social,referral,pinterest.com,mobile,3,3
+2019-10-12,Social,referral,pinterest.com,mobile,3,3
+2019-10-12,Social,referral,pinterest.com,tablet,3,2
+2019-10-26,Social,referral,pinterest.com,mobile,3,3
+2019-09-23,Referral,referral,sis.redsys.es,desktop,3,1
+2019-10-17,Social,referral,l.facebook.com,desktop,3,3
+2019-09-21,Social,referral,m.facebook.com,mobile,3,3
+2019-09-22,Social,referral,m.facebook.com,mobile,3,3
+2019-09-24,Social,referral,m.facebook.com,mobile,3,3
+2019-09-28,Social,referral,m.facebook.com,mobile,3,3
+2019-10-25,Social,referral,m.facebook.com,tablet,3,3
+2019-10-19,Social,referral,l.instagram.com,mobile,3,3
+2019-09-21,Referral,referral,2mrmh.r.a.d.sendibm1.com,mobile,3,1
+2019-09-28,Referral,referral,2mrmh.r.a.d.sendibm1.com,mobile,3,1
+2019-09-30,Referral,referral,2mrmh.r.a.d.sendibm1.com,mobile,3,1
+2019-10-01,Referral,referral,2mrmh.r.a.d.sendibm1.com,mobile,3,1
+2019-10-10,Referral,referral,2mrmh.r.a.d.sendibm1.com,mobile,3,3
+2019-10-16,Referral,referral,2mrmh.r.a.d.sendibm1.com,mobile,3,1
+2019-09-21,Organic Search,organic,google,desktop,4,4
+2019-09-25,Organic Search,organic,google,desktop,4,4
+2019-09-26,Organic Search,organic,google,desktop,4,4
+2019-09-27,Organic Search,organic,google,desktop,4,3
+2019-09-28,Organic Search,organic,google,desktop,4,1
+2019-10-05,Organic Search,organic,google,tablet,4,4
+2019-10-14,Paid Search,cpc,google,desktop,4,4
+2019-10-21,Organic Search,organic,google,desktop,4,3
+2019-10-22,Organic Search,organic,google,desktop,4,3
+2019-10-24,Paid Search,cpc,google,desktop,4,3
+2019-10-26,Paid Search,cpc,google,tablet,4,4
+2019-10-29,Organic Search,organic,google,desktop,4,4
+2019-09-22,Direct,(none),(direct),desktop,4,3
+2019-09-30,Direct,(none),(direct),tablet,4,4
+2019-10-02,Direct,(none),(direct),desktop,4,4
+2019-10-13,Direct,(none),(direct),mobile,4,4
+2019-10-14,Direct,(none),(direct),tablet,4,3
+2019-10-23,Paid Search,cpc,facebook,mobile,4,4
+2019-09-25,Social,referral,facebook.com,desktop,4,4
+2019-09-30,Social,referral,facebook.com,desktop,4,4
+2019-10-18,Social,referral,facebook.com,desktop,4,2
+2019-09-23,Social,referral,pinterest.com,mobile,4,4
+2019-10-18,Social,referral,pinterest.com,mobile,4,4
+2019-10-18,Social,referral,l.facebook.com,desktop,4,4
+2019-09-26,Social,referral,m.facebook.com,mobile,4,4
+2019-10-13,Social,referral,m.facebook.com,mobile,4,4
+2019-10-05,Social,referral,l.instagram.com,mobile,4,4
+2019-10-26,Social,referral,lm.facebook.com,mobile,4,4
+2019-10-28,Social,referral,lm.facebook.com,mobile,4,4
+2019-10-29,Social,referral,lm.facebook.com,mobile,4,4
+2019-09-25,Referral,referral,2mrmh.r.a.d.sendibm1.com,mobile,4,1
+2019-09-29,Referral,referral,2mrmh.r.a.d.sendibm1.com,mobile,4,2
+2019-10-04,Referral,referral,2mrmh.r.a.d.sendibm1.com,mobile,4,1
+2019-10-11,Referral,referral,2mrmh.r.a.d.sendibm1.com,mobile,4,3
+2019-10-13,Referral,referral,2mrmh.r.a.d.sendibm1.com,mobile,4,1
+2019-09-30,Organic Search,organic,google,desktop,5,5
+2019-10-09,Organic Search,organic,google,desktop,5,3
+2019-10-13,Organic Search,organic,google,desktop,5,5
+2019-10-20,Organic Search,organic,google,tablet,5,4
+2019-10-23,Organic Search,organic,google,desktop,5,5
+2019-10-24,Organic Search,organic,google,desktop,5,5
+2019-10-27,Organic Search,organic,google,tablet,5,5
+2019-09-21,Direct,(none),(direct),desktop,5,3
+2019-10-05,Direct,(none),(direct),tablet,5,3
+2019-10-07,Direct,(none),(direct),desktop,5,5
+2019-10-11,Direct,(none),(direct),desktop,5,3
+2019-10-25,Direct,(none),(direct),desktop,5,4
+2019-10-25,Paid Search,cpc,facebook,tablet,5,5
+2019-10-28,Paid Search,cpc,facebook,tablet,5,5
+2019-10-26,Social,referral,instagram.com,mobile,5,5
+2019-10-11,Social,referral,pinterest.com,mobile,5,5
+2019-10-14,Social,referral,pinterest.com,mobile,5,5
+2019-10-16,Social,referral,pinterest.com,mobile,5,4
+2019-10-20,Social,referral,pinterest.com,mobile,5,4
+2019-10-04,Social,referral,m.facebook.com,mobile,5,4
+2019-09-28,Social,referral,l.instagram.com,mobile,5,5
+2019-10-06,Social,referral,l.instagram.com,mobile,5,5
+2019-10-08,Social,referral,l.instagram.com,mobile,5,5
+2019-10-13,Social,referral,l.instagram.com,mobile,5,5
+2019-10-27,Social,referral,lm.facebook.com,mobile,5,5
+2019-09-27,Referral,referral,2mrmh.r.a.d.sendibm1.com,mobile,5,1
+2019-10-03,Referral,referral,2mrmh.r.a.d.sendibm1.com,mobile,5,1
+2019-09-23,Organic Search,organic,google,desktop,6,5
+2019-09-24,Organic Search,organic,google,desktop,6,5
+2019-10-04,Organic Search,organic,google,desktop,6,5
+2019-10-10,Organic Search,organic,google,desktop,6,6
+2019-10-13,Organic Search,organic,google,mobile,6,5
+2019-10-14,Organic Search,organic,google,desktop,6,5
+2019-10-25,Organic Search,organic,google,desktop,6,6
+2019-10-25,Paid Search,cpc,google,desktop,6,4
+2019-09-29,Direct,(none),(direct),mobile,6,6
+2019-10-05,Direct,(none),(direct),desktop,6,3
+2019-10-08,Direct,(none),(direct),tablet,6,5
+2019-10-15,Direct,(none),(direct),desktop,6,5
+2019-10-14,Paid Search,cpc,pinterest,desktop,6,6
+2019-10-07,Social,referral,facebook.com,desktop,6,6
+2019-10-01,Social,referral,m.facebook.com,mobile,6,6
+2019-10-21,Social,referral,m.facebook.com,mobile,6,6
+2019-09-24,Social,referral,l.instagram.com,mobile,6,5
+2019-09-25,Social,referral,l.instagram.com,mobile,6,6
+2019-09-27,Social,referral,l.instagram.com,mobile,6,6
+2019-10-24,Social,referral,lm.facebook.com,mobile,6,6
+2019-09-22,Referral,referral,2mrmh.r.a.d.sendibm1.com,mobile,6,4
+2019-10-02,Referral,referral,2mrmh.r.a.d.sendibm1.com,mobile,6,1
+2019-10-12,Referral,referral,2mrmh.r.a.d.sendibm1.com,mobile,6,3
+2019-09-29,Organic Search,organic,google,desktop,7,7
+2019-10-05,Organic Search,organic,google,mobile,7,7
+2019-10-06,Organic Search,organic,google,desktop,7,6
+2019-10-17,Organic Search,organic,google,desktop,7,7
+2019-10-22,Paid Search,cpc,google,desktop,7,7
+2019-09-26,Direct,(none),(direct),mobile,7,7
+2019-10-14,Direct,(none),(direct),desktop,7,6
+2019-10-23,Direct,(none),(direct),desktop,7,5
+2019-10-17,Social,referral,facebook.com,desktop,7,6
+2019-10-22,Social,referral,instagram.com,mobile,7,7
+2019-10-23,Social,referral,instagram.com,mobile,7,6
+2019-10-23,Social,referral,pinterest.com,mobile,7,7
+2019-10-06,Social,referral,m.facebook.com,mobile,7,7
+2019-10-09,Social,referral,m.facebook.com,mobile,7,7
+2019-10-17,Social,referral,l.instagram.com,mobile,7,7
+2019-10-22,Social,referral,l.instagram.com,mobile,7,7
+2019-09-24,Referral,referral,2mrmh.r.a.d.sendibm1.com,mobile,7,4
+2019-10-14,Referral,referral,2mrmh.r.a.d.sendibm1.com,mobile,7,1
+2019-10-09,Organic Search,organic,google,mobile,8,8
+2019-10-15,Paid Search,cpc,google,desktop,8,8
+2019-10-25,Paid Search,cpc,google,tablet,8,8
+2019-09-24,Direct,(none),(direct),mobile,8,8
+2019-09-25,Direct,(none),(direct),mobile,8,8
+2019-10-12,Direct,(none),(direct),mobile,8,7
+2019-09-25,Social,referral,instagram.com,mobile,8,8
+2019-09-26,Social,referral,instagram.com,mobile,8,8
+2019-10-12,Social,referral,instagram.com,mobile,8,8
+2019-10-25,Social,referral,instagram.com,mobile,8,8
+2019-10-13,Social,referral,pinterest.com,mobile,8,8
+2019-10-29,Social,referral,l.facebook.com,mobile,8,8
+2019-10-16,Social,referral,m.facebook.com,mobile,8,8
+2019-09-21,Social,referral,l.instagram.com,mobile,8,8
+2019-10-15,Social,referral,l.instagram.com,mobile,8,8
+2019-10-18,Social,referral,l.instagram.com,mobile,8,8
+2019-09-23,Referral,referral,2mrmh.r.a.d.sendibm1.com,mobile,8,3
+2019-10-07,Referral,referral,2mrmh.r.a.d.sendibm1.com,desktop,8,6
+2019-10-09,Referral,referral,2mrmh.r.a.d.sendibm1.com,mobile,8,2
+2019-10-15,Referral,referral,2mrmh.r.a.d.sendibm1.com,mobile,8,1
+2019-10-03,Organic Search,organic,google,desktop,9,6
