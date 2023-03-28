@@ -7,6 +7,7 @@ Repositorio de los contenidos y las prácticas del curso BIG DATA
 - Entendiendo los datos
 - Big Data
 - Ejercicios (sin uso de aplicaciones)
+
 **DIA 2 - Tecnología I: Transformación Digital**
 - Recorrido por el mundo DATA
 - Datos en los negocios online
