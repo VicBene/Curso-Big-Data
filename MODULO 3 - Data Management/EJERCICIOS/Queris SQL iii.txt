@@ -1,0 +1,78 @@
+Query S5 - EX.1
+
+WITH
+my_subquery AS(
+SELECT
+director,COUNT (Film) AS total_film
+FROM `jamesbond_new`
+GROUP BY 1)
+
+SELECT AVG (total_film) AS avg_sector_revenue 
+FROM my_subquery;
+
+Opcion 2
+
+SELECT avg(total_film)
+FROM (SELECT
+director
+,COUNT(Film) AS total_film
+FROM `jamesbond_new`
+GROUP BY director);
+
+---------------
+Query S5 - EX.2
+
+WITH my_subquery AS(
+	SELECT
+		comunidad_autonoma,
+		sum (total_paro_registrado) AS total_paro
+	FROM `gobierno_paro`
+	GROUP BY comunidad_autonoma
+)
+
+SELECT 
+	comunidad_autonoma, 
+	AVG (total_paro) AS avg_paro_comunidad 
+FROM my_subquery
+GROUP BY comunidad_autonoma;
+
+---------------
+Query S5 - Ex.3
+
+Paso 1
+
+SELECT platform_code, console_name, first_retail_availability FROM 'videogames_consoles'
+WHERE discontinued = ''
+;
+
+Paso 2
+
+SELECT platform_code, sum(na_sales)+sum(eu_sales)+sum(jp_sales)+(other_sales) AS [globlal_sales] FROM 'videogames_games'
+GROUP BY platform_code
+;
+
+Paso 3 hacemos la JOIN
+
+SELECT 
+	t1.console_name, 
+	t1.first_retail_availability, 
+	sum(t2.na_sales)+sum(t2.eu_sales)+sum(t2.jp_sales)+(t2.other_sales) AS [global_sales]
+FROM videogames_consoles t1
+INNER JOIN videogames_games t2 ON (t1.platform_code = t2.platform_code)
+
+WHERE t1.discontinued ='' AND t2.year >= 2000
+GROUP BY t1.platform_code
+ORDER BY global_sales DESC
+
+
+OPCION 2
+SELECT 
+	T2.console_name, 
+    	T2.first_retail_availability,
+    	SUM(T1.na_sales)+SUM(T1.eu_sales)+SUM(T1.jp_sales)+SUM(T1.other_sales) AS global_sales_games
+FROM videogames_games T1
+JOIN videogames_consoles T2 ON T1.platform_code = T2.platform_code
+WHERE 
+	T2.discontinued = '' AND T1.year >= 2000
+GROUP BY T1.platform_code
+ORDER BY 3 DESC

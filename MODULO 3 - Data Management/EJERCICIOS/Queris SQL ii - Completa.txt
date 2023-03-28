@@ -1,0 +1,410 @@
+**EX 1, Módulo 2 (Agregaciones)**
+
+SELECT
+round(avg (CASE WHEN continent = 'Africa' THEN gross_income_per_capita END),2) AS africa_AVG_GDP,
+sum (CASE WHEN continent = 'Africa' THEN population_in_thousands END) AS total_population,
+COUNT (CASE WHEN continent = 'Africa' THEN country END) AS count_countries
+FROM world_health_org;
+
+
+
+**EX 2, Módulo 2 (Agregaciones)**
+
+SELECT homeworld, COUNT(name) AS count_characters
+FROM star_wars_characters
+--WHERE homeworld !='NA'
+GROUP BY homeworld
+ORDER BY COUNT(name) DESC
+LIMIT 5;
+
+
+
+**EX 3, Módulo 2 (Agregaciones)**
+
+SELECT actor, ROUND(SUM(Bond_Actor_Salary),1) as bond_salary
+FROM james_bond
+WHERE Bond_Actor_Salary IS NOT NULL  --en sqlite: bond_actor_salary != 'NA'
+GROUP BY 1
+ORDER BY bond_salary DESC
+
+
+
+**EX 4, Módulo 2 ((Agregaciones))**
+
+SELECT
+
+  CASE WHEN gender LIKE '%Action%' THEN 'Action Movies' ELSE 'Rest of Movies' END as gender
+
+, COUNT(*) as total_movies
+
+, ROUND(AVG(imdb_score),2) as AVG_imdb_score
+
+FROM imdb_movies
+
+GROUP BY 1
+
+
+
+**EX 5, Módulo 2 ((Agregaciones))**
+
+
+SELECT
+
+Director
+
+,ROUND(SUM(Box_Office)) as total_box_office
+
+FROM `sepe-sql-256409.SQL_Basics.james_bond`
+
+GROUP BY 1
+
+HAVING total_box_office>1500
+
+ORDER BY total_box_office DESC
+
+
+
+**EX 6, Módulo 2 ((Agregaciones))**
+
+SELECT 
+
+Sub_Metal_Genre
+
+,COUNT(Album) as count_albums
+
+FROM `rolling_top_albums`
+
+GROUP BY 1
+
+HAVING count_albums>=10
+
+ORDER BY count_albums DESC
+
+
+
+**EX 7, Módulo 2 ((Agregaciones))**
+
+
+SELECT
+
+CASE
+
+  WHEN upper(Artist) LIKE '%DEATH%' THEN 'DEATH'
+
+  WHEN upper(Artist) LIKE '%BLACK%' THEN 'BLACK'
+
+  WHEN upper(Artist) LIKE '%GOD%' THEN 'GOD'
+
+  END AS artist_keyword,
+
+COUNT(DISTINCT Artist) AS count_artist
+
+FROM `rolling_top_albums`
+
+WHERE
+
+  Artist LIKE '%DEATH%'
+
+  OR Artist LIKE '%BLACK%'
+
+  OR Artist LIKE '%GOD%'
+
+GROUP BY 1
+
+ORDER BY 2 DESC
+
+
+
+**EX 8, Módulo 2 ((Agregaciones))**
+
+
+SELECT
+
+  EXTRACT(MONTH FROM Date) as month,
+
+  EXTRACT(YEAR FROM Date) as year,
+
+  ROUND(AVG(Open),2) as AVG_open_rate,
+
+  ROUND(AVG(Volume_USD)) as AVG_volume_USD
+
+FROM Basics.bitcoin_daily_rates
+
+WHERE
+
+  EXTRACT(YEAR FROM Date) >= 2016
+
+GROUP BY 1,2
+
+ORDER BY year,month
+
+
+*****EN SQLite
+
+SELECT
+
+  strftime('%m', Date) as month,
+
+  strftime ('%Y', Date) as year,
+
+  ROUND(AVG(Open),2) as AVG_open_rate,
+
+  ROUND(AVG(Volume_USD)) as AVG_volume_USD
+
+FROM bitcoin_daily_rates_formatdate
+
+WHERE
+
+  year >= '2016'
+
+GROUP BY 1,2
+
+ORDER BY year,month
+
+
+**EX 9, Módulo 2 ((Agregaciones))**
+
+
+SELECT
+
+  --DATE_TRUCK(date, WEEK) AS comienzo_de_semana NO FUNCIONA EN SQLite
+
+  srtftime('%W', date) AS num_semana,
+  
+  max(high) AS max_rate
+
+FROM amazon_stocks_formatdate
+
+GROUP BY Date
+ORDER BY 2 DESC
+LIMIT 1
+
+
+**EX 10, Módulo 2 ((Agregaciones))**
+
+SELECT
+
+  channelGrouping
+
+  ,SUM(CASE WHEN deviceCategory = 'mobile' THEN sessions END) AS mobile_sessions
+
+  ,SUM(CASE WHEN deviceCategory = 'desktop' THEN sessions END) AS desktop_sessions
+
+  ,SUM(CASE WHEN deviceCategory = 'tablet' THEN sessions END) AS tablet_sessions
+
+  ,SUM(sessions) AS total_sessions
+
+FROM google_analytics_formatdate
+
+WHERE
+  
+  --date BETWEEN '2019-10-01' AND '2019-10-31' **esto seria para SQLite**
+
+  strftime('%Y', date)='2019?
+
+  AND EXTRACT(MONTH FROM date)=10
+
+GROUP BY 1
+
+ORDER BY total_sessions DESC
+
+
+
+*******En SQLite:
+
+SELECT channelGrouping,
+
+  SUM(CASE WHEN deviceCategory = 'mobile' THEN sessions END) AS mobile_sessions,
+
+  SUM(CASE WHEN deviceCategory = 'desktop' THEN sessions END) AS desktop_sessions,
+
+  SUM(CASE WHEN deviceCategory = 'tablet' THEN sessions END) AS tablet_sessions,
+
+  SUM(sessions) AS total_sessions
+
+FROM google_analytics_formatdate
+WHERE
+  strftime('%Y', date)='2019' AND strftime('%m', date)='10'
+GROUP BY 1
+ORDER BY total_sessions DESC
+
+**EX 11.1, Módulo 2 EXAMEN**
+
+
++++ OPCION 1 +++
+
+SELECT
+
+    COUNT(CASE WHEN duration > 100 THEN movie_title end) as mas_de_100,
+    COUNT(CASE WHEN duration BETWEEN 60 AND 100 THEN movie_title end) as entre_60_y_100,
+    COUNT(CASE WHEN duration <60 THEN movie_title end) as menos_de_60
+    
+    FROM imdb_movies
+    
+    WHERE duration !='NA'
+
+
++++ OPCION 2 +++
+
+SELECT COUNT(movie_title),
+
+CASE
+    WHEN duration>100 THEN 'Mas de 100 minutos'
+    WHEN duration BETWEEN 60 and 100 THEN 'Entre 60 y 100 minutos'
+    WHEN duration<60 THEN 'Menos de 60 minutos' END AS Minutos_por_pelicula
+    
+    FROM imdb_movies
+   
+   
+Group BY 2
+
+HAVING duration != 'NA'
+
+ORDER BY 1 DESC
+
+
+**EX 11.2, Módulo 2 EXAMEN**
+
+
++++ OPCION 1 +++
+
+SELECT
+	movie_title, duration
+ --CASE WHEN genres LIKE '%Action%' THEN 'Acción' END AS Genero
+ FROM imdb_movies
+ WHERE duration < 60 AND gender LIKE '%Action%'
+
+
+**EX 11.3, Módulo 2 EXAMEN**
+
+SELECT
+
+date, MIN(high) AS Cotizacion, round(SUM(high + low),2) AS Media_diaria
+
+FROM bitcoin_daily_rates_formatdate
+
+WHERE
+
+EXTRACT(year FROM date) = 2018 and high = 3241
+
+
+OPCION 2
+
+SELECT
+
+date, min(high) AS Cotizacion, round((high + close + open + low)/4,2) AS Media_diaria
+
+FROM bitcoin_daily_rates_formatdate
+
+WHERE
+
+extract(year FROM Date) = 2018
+
+#GROUP BY 1
+ORDER BY 2
+LIMIT 1
+
+
+**EX 11.4, Módulo 2 EXAMEN**
+
+
+SELECT
+	CASE
+		WHEN gender LIKE '%Action%' THEN  'Action Movies'
+
+		WHEN gender LIKE '%Crime%' THEN  'Crime Movies'
+
+		WHEN gender LIKE '%Comedy%' THEN  'Comedy Movies'
+
+		WHEN gender LIKE '%Drama%' THEN  'Drama Movies'
+
+		WHEN gender LIKE '%Romance%' THEN  'Romance Movies'
+
+	END AS gender_movies,
+
+	COUNT(movie_title) AS Total_Peliculas,
+
+	CASE
+		WHEN num_voted_users = Max(num_voted_users) THEN movie_title
+	END AS Pelicula,
+
+	Max(num_voted_users) AS voted_of_movie
+
+FROM imdb_movies
+GROUP BY 1
+HAVING gender_movies IS NOT null
+ORDER BY 4
+
+
+**EX 11.5, Módulo 2 EXAMEN**
+
+
+SELECT count(name), eye_color, homeworld
+
+FROM star_wars_characters_buena
+
+GROUP BY eye_color,homeworld
+
+HAVING COUNT(name)>1 AND homeworld <> 'NA' and eye_color <> 'NA'
+ORDER BY 1 DESC
+
+
+
+**EX 11.6, Módulo 2 EXAMEN**
+
+
+SELECT film, Actor, director, budget
+
+FROM jamesbond
+
+WHere actor='Timothy Dalton' and director='John Glen'
+
+
+
+**EX 11.7, Módulo 2 EXAMEN**
+
++++ OPCION 1 +++
+
+SELECT personal_status,
+    SUM(CASE WHEN class='good' THEN credit_amount END) AS Otorgado,
+    SUM(CASE WHEN class='bad' THEN credit_amount END) AS No_Otorgado,
+    SUM(credit_amount) AS Suma_total
+
+FROM LoanData
+
+GROUP BY personal_status
+
+
+**EX 11.8, Módulo 2 EXAMEN**
+
+select
+actor_1_facebook_likes, imdb_score,
+movie_title, title_year
+from imdb_movies
+WHERE actor_1_facebook_likes>10000 and imdb_score>=8 and title_year<2012 
+AND gender LIKE "%Action%"
+ORDER BY 1 DESC
+
+
+**EX 11.9, Módulo 2 EXAMEN**
+
+select movie_title, gender, budget, gross
+from imdb_movies
+order by 3 DESC --order by 4 DESC
+limit 20
+
+**EX 11.10, Módulo 2 EXAMEN**
+
+select location, profits, rank, employees
+from fortune
+group by location
+order by rank
+limit 10
+
+OR
+
+select DISTINCT location, profits, rank, employees
+from fortune
+order by 3
+limit 10
+
