@@ -197,29 +197,29 @@ Repositorio de los contenidos y las prácticas del curso BIG DATA
 
 # MODULO 6 - Arquitecturas Cloud & Big Data
 
-## DIA 1
+## DIA 1 - Arquitecturas Cloud & Big Data
 
 - Presentación Arquitecturas Cloud y Big Data
 - Ejercicios
 
 1. Python Notebook
 
-## DIA 2
+## DIA 2 - Arquitecturas Cloud & Big Data
 
 - Presentación Arquitecturas Cloud y Big Data.
 - Ejercicios:
 
 2. Condicionales
 3. Bucles
-
-## DIA 3
+ 
+## DIA 3 - Arquitecturas Cloud & Big Data
 
 - Ejercicios:
 
 3. Bucles
 4. Programación funcional
 
-## DIA 4
+## DIA 4 - PySpark
 
 - Introducción a PySpark: RDDs Master-Worker RDD Closure.
 - Crear un RDD a partir de una lista con sus elementos.
@@ -229,7 +229,7 @@ Repositorio de los contenidos y las prácticas del curso BIG DATA
 5. SparkSession Teoría
 6. Primer RDD Teoría
 
-## DIA 5
+## DIA 5 - PySpark RDDs
 
 - RDDs: Transformaciones.
 - RDDs: Acciones.
