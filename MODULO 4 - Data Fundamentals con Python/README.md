@@ -7,6 +7,7 @@
 - Ejemplos básicos de Python:
 
 1- BasicosPythonOriginal.ipynb
+
 2- Repasillo Estructuras.ipynb
 
 ## DIA 2 - Data Fundamentals
@@ -24,6 +25,7 @@
 - Ejercicios con Pandas:
 
 1- Practica Kaggle.ipynb
+
 2- Pandas_Practicas_Alejandro.ipynb (más práctico para manejar Pandas)
 
 ## DIA 4 - Data Manipulation

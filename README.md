@@ -2,33 +2,39 @@
 Repositorio de los contenidos y las prácticas del curso BIG DATA
 
 # MODULO 1 - Business intelligence y Advanced Analytics
-**DIA 1 - Ecosistema Data**
+
+## DIA 1 - Ecosistema Data
+
 - Introducción y contexto
 - Entendiendo los datos
 - Big Data
 - Ejercicios (sin uso de aplicaciones)
 
-**DIA 2 - Tecnología I: Transformación Digital**
+## DIA 2 - Tecnología I: Transformación Digital
+
 - Recorrido por el mundo DATA
 - Datos en los negocios online
 - Ejercicios (sin uso de aplicaciones)
 - Búsquedas avanzadas de Google
 
-**DIA 3 - Business Intelligence**
+## DIA 3 - Business Intelligence
+
 - Datos y decisiones de negocio
 - Modelos de datos
 - Soluciones BI
 - Minería de datos
 - Ejercicios: uso de Looker Studio (anteriormente Google Data Studio)
 
-**DIA 4 - Tecnología II: Manipulación de datos**
+## DIA 4 - Tecnología II: Manipulación de datos
+
 - Conceptos básicos
 - JS: Objetos JSON y API
 - Bases de datos SQL
 - SQL y Reporting
 - Ejercicios: uso de MySQL
 
-**DIA 5 - Big Data, IA y Machine Learning**
+## DIA 5 - Big Data, IA y Machine Learning
+
 - Big Data
 - Data Science: AI y ML
 - ML: entender el proceso
@@ -36,34 +42,39 @@ Repositorio de los contenidos y las prácticas del curso BIG DATA
 
 # MODULO 2 - Web Analytics
 
-**DIA 1 - Analítica Web I**
+## DIA 1 - Analítica Web I
+
 - Analítica digital.
 - Objetivos.
 - Métricas y KPIs.
 - Ejercicios.
 
-**DIA 2 - Analítica Web I**
+## DIA 2 - Analítica Web I
+
 - Google Analytics GA4.
 - Recopilación de datos de Analytics.
 - Interfaz Google Analytics 4.
 - El Ámbito de los datos.
 - Ejercicios.
 
-**DIA 3 - Analítica Web II**
+## DIA 3 - Analítica Web II
+
 - Dimensiones GA4.
 - Uniendo dimensiones y métricas.
 - Centro de análisis de GA4.
 - Informes.
 - Ejercicios.
 
-**DIA 4 - Analítica Web III**
+## DIA 4 - Analítica Web III
+
 - Inteligencia Artificial GA4.
 - Insights automáticos.
 - Seguimiento de una campaña de marketing.
 - Utilizando la publicidad.
 - Ejercicios.
 
-**DIA 5 - Entornos Analítica Web**
+## DIA 5 - Entornos Analítica Web
+
 - Entornos analíticos
 - SEO
 - Analítica en Social Ads
@@ -72,13 +83,15 @@ Repositorio de los contenidos y las prácticas del curso BIG DATA
 
 # MODULO 3 - Data Management
 
-**DIA 1 - Introducción**
+## DIA 1 - Introducción
+
 - Análisis inicial de una Base de Datos BBDD.
 - ¿Big Data?
 - Ingesta y tratamiento.
 - Ejercicios.
 
-**DIAS 2 y 3 - SQL Segmento 1**
+## DIAS 2 y 3 - SQL Segmento 1
+
 - Antes de empezar.
 - Statements & clauses básicos.
 - Where Clause.
@@ -86,13 +99,15 @@ Repositorio de los contenidos y las prácticas del curso BIG DATA
 - Case When statement.
 - Ejercicios (SQL - carpeta MYSQL): diferentes sentencias de SQL usando diferentes datasets
 
-**DIA 4 - SQL Segmento 2**
+## DIA 4 - SQL Segmento 2
+
 - Agregaciones. Funciones de agregación, GROUP BY statement, HAVING clause.
 - Trabajando con fechas. STRFTIME function
 - Agregaciones condicionales
 - Ejercicios (SQL - carpeta MYSQL): sentencias SQL utilizando funciones de agregación, agregaciones condicionales y funciones fecha.
 
-**DIA 5 - SQL Segmento 3**
+## DIA 5 - SQL Segmento 3
+
 - Subqueries
 - Unions: union y union all
 - Joins: left join, inner join, full join, right join
@@ -101,34 +116,83 @@ Repositorio de los contenidos y las prácticas del curso BIG DATA
 
 # MODULO 4 - Data Fundamentals con Python
 
-**DIA 1 - Aprendiendo a pensar como un programador**
+## DIA 1 - Aprendiendo a pensar como un programador
+
 - Resolución de problemas
 - Programar
 - Ejemplos básicos de Python: 1- BasicosPythonOriginal.ipynb, 2- Repasillo Estructuras.ipynb
 
-**DIAS 2 - Data Fundamentals**
+## DIAS 2 - Data Fundamentals
+
 - CRISP-DM y EDA
 - Problemas
 - Librerías y PIP
 - Ejercicios: String y Cadenas Victor.ipynb
 
-**DIA 3 - Data Fundamentals**
+## DIA 3 - Data Fundamentals
+
 - NumPy y Pandas
 - Estructuras de datos
 - EDA
 - Ejercicios con Pandas: Practica Kaggle.ipynb
 
-**DIA 4 - Data Manipulation**
+## DIA 4 - Data Manipulation
+
 - Data Wrangling
 - Datos incompletos
 - Atípicos
 - Incoherentes
 - Ejercicio de EDA: Panda_Practicas_chipotle.ipynb
 
-**DIA 5 - Data Fundamentals**
+## DIA 5 - Data Fundamentals
+
 - Contenidos adicionales
 - Ejercicio de EDA: Panda_Practicas_chipotle.ipynb (continuación)
 
 # MODULO 5 - Data Science y Machine Learning
+
+## DIAS 1 y 2 - Exploración y análisis de datos en Python
+
+- Presentación
+- Contextualización
+- Introducción al Aprendizaje Automático
+- Conceptos fundamentales del ML
+- Repasemos EDA y Data Preparation
+- Herramientas para el ML
+- Ejercicios:
+
+1. Estructuras de Datos en Python
+2. Preprocesado de un dataset con Pandas
+3. Librería NumPY
+4. Librerías para el análisis de datos
+
+## DIAS 3, 4 y 5 - Fundamentos del Aprendizaje Automático
+
+- Conceptos fundamentales
+- Tipos de modelos de ML
+- Regresión
+- Clasificación
+- Modelos no supervisados
+- Redes neuronales
+- Ejercicios
+
+1. Regresión
+- Regresión linear
+- Regresión KNN
+- Regresión linear y polinómica
+
+2. Clasificación
+- Regresión Logística
+- Clasificación KNN
+- Más clasificadores
+- Clasificadores multiclase
+- Otros clasificadores
+
+3. Modelos no supervisados
+- Principales modelos no supervisados
+- Otros modelos no supervisados
+
+4. NLP y Redes Neuronales
+- Redes neuronales recursivas (RNNs) para análisis de opinión.
 
 # MODULO 6 - Arquitecturas Cloud & Big Data
